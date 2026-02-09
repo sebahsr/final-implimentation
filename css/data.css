@@ -82,3 +82,11 @@
 .ethics-list { padding-left: 20px; }
 .ethics-list li { margin-bottom: 15px; line-height: 1.6; }
 .ethics-list strong { color: #d0021b; }
+.next-link {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 1px solid var(--gold);
+    padding-bottom: 5px;
+}

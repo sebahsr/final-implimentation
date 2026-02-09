@@ -4,7 +4,7 @@ const config = {
     colors: { 
         sudan: "#8e44ad", 
         ethiopia: "#c5a028",
-        types: ["#444", "#d35400", "#2c3e50"]
+        types: ["#8e44ad", "#d35400", "#c5a028"]
     }
 };
 

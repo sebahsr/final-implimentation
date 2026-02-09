@@ -14,7 +14,13 @@
     padding-bottom: 20vh;
     overflow-x: hidden; /* Prevent horizontal scroll bars */
 }
-
+.chapter-header .intro {
+    font-family: 'Cormorant Garamond', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 0.85rem;
+    color: var(--gold);
+}
 /* Text Blocks (Narrative) */
 .text-block {
     width: 100%;
@@ -322,4 +328,12 @@ figcaption {
     font-size: 0.95rem;
     margin: 0;
     color: #444;
+}
+.next-link {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 1px solid var(--gold);
+    padding-bottom: 5px;
 }

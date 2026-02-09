@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function() {
             .attr("cx", width / 2)
             .attr("cy", height / 2)
             .attr("r", 0)
-            .attr("fill", colorBlood)
+            .attr("fill", colorGold)
             .attr("opacity", 1)
             .transition().delay(100).duration(1200).ease(d3.easeCircleIn)
             .attr("r", width * 1.5) // Fills entire screen
