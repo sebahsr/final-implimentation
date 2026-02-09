@@ -1,0 +1,1814 @@
+{
+    "shadow_gap": [
+        {
+            "Country": "Palestine",
+            "ISO": "PSE",
+            "Reported": 60,
+            "Danger_Value": 7010,
+            "Normalized_Danger": 100.0,
+            "Projected": 119940,
+            "Multiplier": 1999,
+            "Status": "Ongoing"
+        },
+        {
+            "Country": "Ukraine",
+            "ISO": "UKR",
+            "Reported": 72,
+            "Danger_Value": 3182,
+            "Normalized_Danger": 45.392296718972894,
+            "Projected": 143928,
+            "Multiplier": 1999,
+            "Status": "Latent"
+        },
+        {
+            "Country": "Myanmar",
+            "ISO": "MMR",
+            "Reported": 41,
+            "Danger_Value": 3694,
+            "Normalized_Danger": 52.69614835948645,
+            "Projected": 81959,
+            "Multiplier": 1999,
+            "Status": "Ongoing"
+        },
+        {
+            "Country": "Nigeria",
+            "ISO": "NGA",
+            "Reported": 84,
+            "Danger_Value": 2127,
+            "Normalized_Danger": 30.34236804564907,
+            "Projected": 165228,
+            "Multiplier": 1967,
+            "Status": "Latent"
+        },
+        {
+            "Country": "Mexico",
+            "ISO": "MEX",
+            "Reported": 52,
+            "Danger_Value": 5828,
+            "Normalized_Danger": 83.13837375178316,
+            "Projected": 98696,
+            "Multiplier": 1898,
+            "Status": "Ongoing"
+        },
+        {
+            "Country": "Brazil",
+            "ISO": "BRA",
+            "Reported": 11,
+            "Danger_Value": 4396,
+            "Normalized_Danger": 62.71041369472182,
+            "Projected": 20251,
+            "Multiplier": 1841,
+            "Status": "Ongoing"
+        },
+        {
+            "Country": "Syria",
+            "ISO": "SYR",
+            "Reported": 22,
+            "Danger_Value": 2516,
+            "Normalized_Danger": 35.89158345221113,
+            "Projected": 38522,
+            "Multiplier": 1751,
+            "Status": "Latent"
+        },
+        {
+            "Country": "Cameroon",
+            "ISO": "CMR",
+            "Reported": 34,
+            "Danger_Value": 1747,
+            "Normalized_Danger": 24.921540656205423,
+            "Projected": 42636,
+            "Multiplier": 1254,
+            "Status": "Latent"
+        }
+    ],
+    "texture_data": [
+        {
+            "Country": "Democratic Republic of Congo",
+            "Public": 13.5,
+            "Systemic": 24.7,
+            "Other": 61.8
+        },
+        {
+            "Country": "Nigeria",
+            "Public": 21.4,
+            "Systemic": 13.1,
+            "Other": 65.5
+        },
+        {
+            "Country": "Myanmar",
+            "Public": 17.1,
+            "Systemic": 14.6,
+            "Other": 68.3
+        }
+    ],
+    "prognosis_data": [
+        {
+            "Country": "El Salvador",
+            "Danger": 0.2,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Marshall Islands",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "American Samoa",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Costa Rica",
+            "Danger": 0.2,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "South Georgia and the South Sandwich Islands",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Andorra",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Virgin Islands, U.S.",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Argentina",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Sudan",
+            "Danger": 27.8,
+            "Multiplier": 1965,
+            "Projected": 558060,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Uganda",
+            "Danger": 3.5,
+            "Multiplier": 184,
+            "Projected": 3312,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Austria",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Palestine",
+            "Danger": 100.0,
+            "Multiplier": 1999,
+            "Projected": 119940,
+            "Category": "Black Hole"
+        },
+        {
+            "Country": "North Korea",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Bosnia and Herzegovina",
+            "Danger": 0.2,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Slovenia",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Laos",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Panama",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Uzbekistan",
+            "Danger": 0.2,
+            "Multiplier": 1,
+            "Projected": 2,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Portugal",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Micronesia",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Venezuela",
+            "Danger": 2.7,
+            "Multiplier": 184,
+            "Projected": 368,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Tokelau",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Sri Lanka",
+            "Danger": 0.7,
+            "Multiplier": 1,
+            "Projected": 3,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Tanzania",
+            "Danger": 0.6,
+            "Multiplier": 1,
+            "Projected": 6,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Croatia",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "United Arab Emirates",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "East Timor",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Nicaragua",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Bahrain",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Qatar",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Oman",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "British Virgin Islands",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Czech Republic",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Kenya",
+            "Danger": 9.0,
+            "Multiplier": 465,
+            "Projected": 6975,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Angola",
+            "Danger": 0.5,
+            "Multiplier": 1,
+            "Projected": 3,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Saudi Arabia",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Cuba",
+            "Danger": 0.6,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Bhutan",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Kiribati",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Saint Pierre and Miquelon",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Jamaica",
+            "Danger": 3.1,
+            "Multiplier": 181,
+            "Projected": 181,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Nigeria",
+            "Danger": 30.3,
+            "Multiplier": 1967,
+            "Projected": 165228,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Brazil",
+            "Danger": 62.7,
+            "Multiplier": 1841,
+            "Projected": 20251,
+            "Category": "Black Hole"
+        },
+        {
+            "Country": "Spain",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Mongolia",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Cyprus",
+            "Danger": 0.3,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Faroe Islands",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "French Polynesia",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Nepal",
+            "Danger": 1.2,
+            "Multiplier": 1,
+            "Projected": 3,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "French Guiana",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Luxembourg",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Fiji",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Central African Republic",
+            "Danger": 2.6,
+            "Multiplier": 193,
+            "Projected": 12159,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Guadeloupe",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Guatemala",
+            "Danger": 2.7,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Bolivia",
+            "Danger": 0.7,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Algeria",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Turkey",
+            "Danger": 1.6,
+            "Multiplier": 75,
+            "Projected": 225,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Northern Mariana Islands",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "South Sudan",
+            "Danger": 8.4,
+            "Multiplier": 573,
+            "Projected": 55581,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Antigua and Barbuda",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Papua New Guinea",
+            "Danger": 1.1,
+            "Multiplier": 1,
+            "Projected": 9,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Ivory Coast",
+            "Danger": 0.6,
+            "Multiplier": 1,
+            "Projected": 3,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Jordan",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Mayotte",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Saint Helena, Ascension and Tristan da Cunha",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Bermuda",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Equatorial Guinea",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Hungary",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Libya",
+            "Danger": 1.2,
+            "Multiplier": 76,
+            "Projected": 304,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Ethiopia",
+            "Danger": 10.2,
+            "Multiplier": 969,
+            "Projected": 156978,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "eSwatini",
+            "Danger": 0.2,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Morocco",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Djibouti",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Cambodia",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Curacao",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Malaysia",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Egypt",
+            "Danger": 0.3,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Kazakhstan",
+            "Danger": 0.8,
+            "Multiplier": 1,
+            "Projected": 3,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Samoa",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Kyrgyzstan",
+            "Danger": 0.4,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "United Kingdom",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 3,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Paraguay",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Armenia",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Cocos (Keeling) Islands",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Israel",
+            "Danger": 2.5,
+            "Multiplier": 115,
+            "Projected": 1150,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Peru",
+            "Danger": 2.2,
+            "Multiplier": 89,
+            "Projected": 89,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Lebanon",
+            "Danger": 16.8,
+            "Multiplier": 1090,
+            "Projected": 10900,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Liechtenstein",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "New Zealand",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 2,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Sint Maarten",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Antarctica",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Turks and Caicos Islands",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Zimbabwe",
+            "Danger": 0.6,
+            "Multiplier": 1,
+            "Projected": 6,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Thailand",
+            "Danger": 0.3,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Bulgaria",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Saint Lucia",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Azerbaijan",
+            "Danger": 0.4,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Trinidad and Tobago",
+            "Danger": 5.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Heard Island and McDonald Islands",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Mali",
+            "Danger": 10.8,
+            "Multiplier": 813,
+            "Projected": 20325,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Togo",
+            "Danger": 0.3,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Gibraltar",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Bahamas",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 2,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Greenland",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Saint Kitts and Nevis",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Estonia",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Lesotho",
+            "Danger": 0.2,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Brunei",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Syria",
+            "Danger": 35.9,
+            "Multiplier": 1751,
+            "Projected": 38522,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Taiwan",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Gabon",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "United States Minor Outlying Islands",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "French Southern and Antarctic Lands",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Uruguay",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Tonga",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Switzerland",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Singapore",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Burundi",
+            "Danger": 3.6,
+            "Multiplier": 175,
+            "Projected": 13475,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Honduras",
+            "Danger": 5.0,
+            "Multiplier": 280,
+            "Projected": 840,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Eritrea",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Belize",
+            "Danger": 0.5,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Comoros",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 3,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Benin",
+            "Danger": 2.8,
+            "Multiplier": 155,
+            "Projected": 155,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Gambia",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Japan",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "San Marino",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Guam",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Ukraine",
+            "Danger": 45.4,
+            "Multiplier": 1999,
+            "Projected": 143928,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Reunion",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "British Indian Ocean Territory",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Cape Verde",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "France",
+            "Danger": 0.6,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "South Africa",
+            "Danger": 5.1,
+            "Multiplier": 249,
+            "Projected": 2739,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Tunisia",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 4,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Netherlands",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 2,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Lithuania",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Slovakia",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Liberia",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Cayman Islands",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Chile",
+            "Danger": 1.2,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Anguilla",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Vietnam",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Romania",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "North Macedonia",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Philippines",
+            "Danger": 4.8,
+            "Multiplier": 299,
+            "Projected": 299,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Senegal",
+            "Danger": 0.2,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Democratic Republic of Congo",
+            "Danger": 11.8,
+            "Multiplier": 857,
+            "Projected": 221963,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "United States",
+            "Danger": 1.6,
+            "Multiplier": 1,
+            "Projected": 6,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Monaco",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Iceland",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Pakistan",
+            "Danger": 10.7,
+            "Multiplier": 738,
+            "Projected": 7380,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "South Korea",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Turkmenistan",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Maldives",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Afghanistan",
+            "Danger": 5.7,
+            "Multiplier": 384,
+            "Projected": 14208,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Malawi",
+            "Danger": 0.9,
+            "Multiplier": 1,
+            "Projected": 3,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Sierra Leone",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Georgia",
+            "Danger": 0.3,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Saint-Martin",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Palau",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Norway",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Namibia",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Isle of Man",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Cook Islands",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Solomon Islands",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Kuwait",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Tajikistan",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Colombia",
+            "Danger": 21.0,
+            "Multiplier": 1039,
+            "Projected": 11429,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Yemen",
+            "Danger": 13.5,
+            "Multiplier": 760,
+            "Projected": 7600,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Myanmar",
+            "Danger": 52.7,
+            "Multiplier": 1999,
+            "Projected": 81959,
+            "Category": "Black Hole"
+        },
+        {
+            "Country": "Niue",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "China",
+            "Danger": 2.6,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Greece",
+            "Danger": 0.6,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Montserrat",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Iran",
+            "Danger": 0.9,
+            "Multiplier": 76,
+            "Projected": 380,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Somalia",
+            "Danger": 6.3,
+            "Multiplier": 605,
+            "Projected": 10285,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Suriname",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "New Caledonia",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Mozambique",
+            "Danger": 3.2,
+            "Multiplier": 206,
+            "Projected": 2060,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Puerto Rico",
+            "Danger": 2.5,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Martinique",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Madagascar",
+            "Danger": 3.3,
+            "Multiplier": 211,
+            "Projected": 844,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Cameroon",
+            "Danger": 24.9,
+            "Multiplier": 1254,
+            "Projected": 42636,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Zambia",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 3,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Mauritania",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Seychelles",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Australia",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Aruba",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Montenegro",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Belarus",
+            "Danger": 0.2,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Kosovo",
+            "Danger": 0.3,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Norfolk Island",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Denmark",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Rwanda",
+            "Danger": 0.2,
+            "Multiplier": 1,
+            "Projected": 2,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Saint-Barthelemy",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Tuvalu",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Niger",
+            "Danger": 2.7,
+            "Multiplier": 250,
+            "Projected": 1000,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Bailiwick of Jersey",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Latvia",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Albania",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Italy",
+            "Danger": 0.3,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Barbados",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Bailiwick of Guernsey",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Ecuador",
+            "Danger": 1.7,
+            "Multiplier": 84,
+            "Projected": 84,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Russia",
+            "Danger": 13.4,
+            "Multiplier": 960,
+            "Projected": 15360,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "India",
+            "Danger": 30.2,
+            "Multiplier": 1179,
+            "Projected": 57771,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Ghana",
+            "Danger": 2.1,
+            "Multiplier": 111,
+            "Projected": 222,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Nauru",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Canada",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Wallis and Futuna",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Ireland",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Malta",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Dominica",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Botswana",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Dominican Republic",
+            "Danger": 0.3,
+            "Multiplier": 1,
+            "Projected": 2,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Germany",
+            "Danger": 0.7,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Vanuatu",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Bangladesh",
+            "Danger": 9.2,
+            "Multiplier": 436,
+            "Projected": 6976,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Finland",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Akrotiri and Dhekelia",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Haiti",
+            "Danger": 6.3,
+            "Multiplier": 457,
+            "Projected": 44786,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Saint Vincent and the Grenadines",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Indonesia",
+            "Danger": 2.8,
+            "Multiplier": 135,
+            "Projected": 810,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Serbia",
+            "Danger": 0.3,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Guyana",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Guinea-Bissau",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Falkland Islands",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Mexico",
+            "Danger": 83.1,
+            "Multiplier": 1898,
+            "Projected": 98696,
+            "Category": "Black Hole"
+        },
+        {
+            "Country": "Belgium",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Grenada",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Burkina Faso",
+            "Danger": 6.6,
+            "Multiplier": 678,
+            "Projected": 8136,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Republic of Congo",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Chad",
+            "Danger": 0.6,
+            "Multiplier": 66,
+            "Projected": 726,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Iraq",
+            "Danger": 6.1,
+            "Multiplier": 383,
+            "Projected": 383,
+            "Category": "Neglected"
+        },
+        {
+            "Country": "Poland",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Moldova",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Sweden",
+            "Danger": 0.1,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Caribbean Netherlands",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Christmas Island",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Guinea",
+            "Danger": 0.6,
+            "Multiplier": 1,
+            "Projected": 1,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Mauritius",
+            "Danger": 0.2,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Sao Tome and Principe",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        },
+        {
+            "Country": "Pitcairn",
+            "Danger": 0.0,
+            "Multiplier": 1,
+            "Projected": 0,
+            "Category": "Monitored"
+        }
+    ]
+}

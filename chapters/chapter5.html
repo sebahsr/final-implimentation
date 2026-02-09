@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter V: The Architecture of Hope</title>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/chapter5.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body class="article-layout">
+
+    <nav class="article-nav">
+        <a href="index.html" class="brand">Lineage of Silence</a>
+        <span class="issue">Chapter V: The Response</span>
+    </nav>
+
+   <div class="main-column">
+        <header class="chapter-header">
+            <span class="intro">Final Investigation</span>
+            <h1>The Architecture of Hope: <br>Justice in the Shadow of Projections</h1>
+            <div class="byline">Forensic Reconstruction | February 2026</div>
+        </header>
+
+        <section class="text-block">
+            <p><span class="drop-cap">W</span>e have tracked the silence across borders, from the jagged pulses of the global record to the specific, deep-seated scars of the Ethiopian and Sudanese corridor. But the numbers we verify are only a whisper of the reality. In my forensic reconstruction, the horizon of trauma expands from thousands into millions—a "Shadow of Silence" that the current legal architecture is not built to hold.</p>
+            
+            <p>For Ethiopia and Sudan alone, the projected weight of this violence exceeds <strong>715,038 victims</strong>. Below, the Shadow Attrition Flow visualizes the chasm: the distance between the 1.9 million souls we project and the 50 convictions the world has managed to deliver.</p>
+        </section>
+
+        <figure class="viz-block" id="block-attrition-flow">
+            <div class="viz-header">
+                <h3>The Shadow of Attrition</h3>
+                <small>Tracing the 99.9% gap between Projection and Conviction</small>
+            </div>
+            <svg id="viz-attrition-flow"></svg>
+            <figcaption>Fig 1. The Attrition Trace: A horizontal path showing the loss of visibility. From 1.9 Million projected to 50 global convictions.</figcaption>
+        </figure>
+
+        <section class="text-block">
+            <h2>The Reparations Compass</h2>
+            <p>While the state-led path to justice remains a thinning thread, the "Interim" response offers a different kind of hope. In regions like Iraq and Guinea, we see the circle of care beginning to close. These radial gauges represent a new compass for human rights—measuring progress not in years of litigation, but in lives reached with immediate medical and financial agency.</p>
+        </section>
+
+        <figure class="viz-block" id="block-radial-reach">
+            <div class="viz-header">
+                <h3>The Reparations Compass</h3>
+                <div class="legend-row">
+                    <span class="key-item"><span class="swatch gold"></span> Reached</span>
+                    <span class="key-item"><span class="swatch grey"></span> Unmet Need</span>
+                </div>
+            </div>
+            <svg id="viz-radial-reach"></svg>
+            <figcaption>Fig 2. The Reach: Gold denotes the portion of documented survivors receiving interim support.</figcaption>
+        </figure>
+
+        <section class="text-block">
+            <h2>The Ecosystem of Resistance</h2>
+            <p>The final reality is that survivors are no longer waiting for permission to exist. They are the architects of their own justice. By connecting funders directly to initiatives like the Mukwege Foundation and Nadia’s Initiative, they have built a web that bypasses the "Impunity Funnel." This network is a living testament to the fact that while silence can be weaponized, connection can be a shield.</p>
+        </section>
+
+        <figure class="viz-block" id="block-network">
+            <div class="viz-header"><h3>The Ecosystem of Accountability</h3></div>
+            <svg id="viz-network"></svg>
+            <figcaption>Fig 3. The Web: Drag nodes to explore the connections. Hover to highlight the specific neighborhoods of support surrounding the survivor.</figcaption>
+        </figure>
+        
+        <div class="chapter-nav-box">
+            <a href="../data.html" class="next-link">Take A closer look at the data</a>
+        </div>
+    </div>
+
+    <div id="viz-tooltip"></div>
+    <script src="../js/viz/chapter5.js"></script>
+</body>
+</html>

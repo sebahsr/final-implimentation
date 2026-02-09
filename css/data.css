@@ -1,0 +1,84 @@
+/* css/data.css */
+
+/* Reusing Global Theme */
+.main-column {
+    display: flex; flex-direction: column; align-items: center;
+    padding-top: 15vh; padding-bottom: 20vh;
+}
+.text-block { width: 100%; max-width: 85ch; padding: 0 2rem; }
+.chapter-header { text-align: center; margin-bottom: 4rem; }
+.chapter-header h1 { font-family: 'Cormorant Garamond', serif; font-size: 3.5rem; margin: 0.5rem 0; color: #111; }
+.chapter-header .intro {
+    font-family: 'Lato', sans-serif; text-transform: uppercase;
+    letter-spacing: 3px; font-size: 0.85rem; color: #666;
+}
+
+.divider {
+    width: 100px; border: 0; border-top: 1px solid #d0021b;
+    margin: 4rem 0;
+}
+
+/* SECTIONS */
+.method-section {
+    width: 100%; max-width: 900px; margin-bottom: 5rem;
+}
+.method-section h2 {
+    font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; border-bottom: 1px solid #ddd;
+    padding-bottom: 10px; margin-bottom: 30px; color: #111;
+}
+
+/* CARDS */
+.source-card {
+    background: #fff; border: 1px solid #e0e0e0; padding: 25px;
+    margin-bottom: 20px; border-left: 3px solid #111;
+}
+.source-card h3 { margin-top: 0; font-family: 'Lato', sans-serif; font-weight: 700; }
+.download-link {
+    display: inline-block; margin-top: 15px; text-decoration: none;
+    color: #d0021b; font-weight: 700; font-size: 0.9rem;
+    border-bottom: 1px solid transparent; transition: 0.2s;
+}
+.download-link:hover { border-bottom-color: #d0021b; }
+
+/* ALGO BOX */
+.algo-box {
+    background: #f4f4f4; padding: 25px; border-radius: 4px;
+    font-family: 'Courier New', monospace; font-size: 0.9rem; color: #333;
+}
+.algo-box code {
+    display: block; background: #fff; padding: 10px; border: 1px solid #ddd;
+    margin: 10px 0; font-weight: bold;
+}
+
+/* FILE LIST */
+.file-list { list-style: none; padding: 0; }
+.file-item {
+    display: flex; align-items: center; background: #fff;
+    padding: 15px; margin-bottom: 15px; border: 1px solid #eee;
+    transition: transform 0.2s;
+}
+.file-item:hover { transform: translateX(5px); border-color: #ccc; }
+
+.file-icon {
+    background: #111; color: #fff; padding: 8px 12px;
+    font-weight: 700; font-size: 0.8rem; margin-right: 20px;
+}
+.file-info { flex-grow: 1; }
+.file-info strong { display: block; font-family: 'Cormorant Garamond', serif; color: #111; }
+.file-info span { font-size: 0.85rem; color: #666; font-family: 'Lato', sans-serif; }
+
+.file-download {
+    text-decoration: none; color: #111; border: 1px solid #111;
+    padding: 8px 15px; font-size: 0.8rem; transition: 0.2s;
+}
+.file-download:hover { background: #111; color: #fff; }
+
+.multi-links a {
+    color: #d0021b; text-decoration: none; font-weight: 700; margin: 0 5px;
+}
+.multi-links a:hover { text-decoration: underline; }
+
+/* ETHICS */
+.ethics-list { padding-left: 20px; }
+.ethics-list li { margin-bottom: 15px; line-height: 1.6; }
+.ethics-list strong { color: #d0021b; }

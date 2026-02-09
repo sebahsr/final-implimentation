@@ -1,0 +1,10 @@
+{"nodes": [{"id": "Survivors", "group": "Target", "r": 20}, 
+{"id": "UN Action", "group": "Coordinator", "r": 15}, 
+{"id": "SRSG-SVC", "group": "Coordinator", "r": 15},
+ {"id": "Mukwege Foundation", "group": "Implementer", "r": 10}, 
+ {"id": "Nadia's Initiative", "group": "Implementer", "r": 10}, 
+ {"id": "All Survivors Project", "group": "Implementer", "r": 10},
+  {"id": "Global Survivors Fund", "group": "Funder", "r": 18},
+   {"id": "Trust Fund for Victims", "group": "Funder", "r": 12},
+    {"id": "ICC", "group": "Legal", "r": 12}, {"id": "National Courts", "group": "Legal", "r": 10}], "links": [{"source": "UN Action", "target": "SRSG-SVC", "type": "Coordination"}, {"source": "SRSG-SVC", "target": "Survivors", "type": "Advocacy"},
+ {"source": "Global Survivors Fund", "target": "Survivors", "type": "Reparations"}, {"source": "Global Survivors Fund", "target": "Mukwege Foundation", "type": "Partner"}, {"source": "Global Survivors Fund", "target": "Nadia's Initiative", "type": "Partner"}, {"source": "All Survivors Project", "target": "Survivors", "type": "Men/Boys Focus"}, {"source": "ICC", "target": "National Courts", "type": "Jurisdiction"}, {"source": "National Courts", "target": "Survivors", "type": "Justice (Rare)"}]}

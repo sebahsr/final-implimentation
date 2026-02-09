@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter III: The Anatomy of Silence</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant Garamond:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/chapter3.css">
+    
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+</head>
+<body class="article-layout">
+
+    <nav class="article-nav">
+        <a href="../index.html" class="brand">Lineage of Silence</a>
+        <span class="issue">Chapter III: The Temporal Pulse</span>
+    </nav>
+
+    <div class="main-column">
+        
+        <header class="chapter-header">
+            <span class="intro">Investigative Report</span>
+            <h1>The Anatomy of Silence: <br>Tracking the Invisible Surge</h1>
+            <div class="byline">By the Investigation Team | Published February 8, 2026</div>
+        </header>
+
+        <section class="text-block">
+            <p><span class="drop-cap">I</span>n the quietest corridors of the world’s most violent conflicts, Conflict-Related Sexual Violence (CRSV) remains a weapon designed specifically for the dark. It is a strategic tool of war used to displace communities and destroy social fabrics, leaving behind a residue not of debris, but of absolute silence. To understand this void, we have mapped five years of documentation—a forensic reconstruction of where the truth managed to escape the record.</p>
+            
+            <p>Time is the ultimate witness, but the record it keeps is jagged. When we look at the <strong>Global Documentation Pulse</strong>, we see more than just numbers; we see a "heartbeat" of survival. Each spike represents a moment where the mechanisms of record-keeping were strong enough to register the trauma that the architects of war intended to erase.</p>
+        </section>
+
+        <figure class="viz-block" id="block-timeline">
+            
+            <div class="viz-legend">
+                <span><span class="dot purple"></span> Aggregate Verified Reports</span>
+            </div>
+            <svg id="viz-timeline"></svg>
+            <figcaption>Fig 1. The Pulse: Notable surges in 2022 and 2023 coincide with total system collapses in specific urban corridors. Hover for monthly volumes.</figcaption>
+        </figure>
+
+        <section class="text-block">
+            <h2>The Regional Heartbeat</h2>
+            <p>Conflict does not surge equally, and silence is not distributed uniformly. By breaking the global pulse into regional <strong>"ink-bleeds,"</strong> we can isolate the unique signatures of violence. In Africa, the pulse is rhythmic and persistent—a testament to a decade-long infrastructure of humanitarian documentation that refuses to let the record go cold.</p>
+            
+            <p>In contrast, the Middle East is defined by sudden, explosive ruptures. These surges mirror high-intensity urban escalations where violence is used not just as a weapon, but as a signal. In these zones, documentation disappears for months at a time, only to reappear in overwhelming swells that represent the breaking point of a civilian population.</p>
+        </section>
+
+        <figure class="viz-block" id="block-stream">
+            
+            <svg id="viz-stream"></svg>
+            <figcaption>Fig 2. Regional Heartbeats: The "ink-bleeds" reveal where documentation effort is steady versus where it is reactive. Hover to isolate a region's signal.</figcaption>
+        </figure>
+
+        <section class="text-block">
+            <h2>The Human Horizon</h2>
+            <p>Who remains in the shadow? To understand the human cost, we must move beyond the "when" to the "who." The <strong>Forensic Age Curves</strong> map the distribution of verified victims, revealing the demographic fingerprints of global conflict. These shapes are not symmetrical; they are weighted by the specific tactics of the predators.</p>
+            
+            <p>In European conflict zones, the documentation leans toward an older demographic, reflecting the targeting of adult populations in occupied territories. However, in the African corridor, the curve widens chillingly among the youth. The "swell" of the shape in these regions centers on victims in their teens and early twenties—a haunting testament to the impact of generational warfare.</p>
+        </section>
+
+        <figure class="viz-block" id="block-violins">
+            
+            <svg id="viz-violins"></svg>
+            <figcaption>Fig 3. The Human Horizon: Each curve represents the "density" of documentation across the lifespan. Hover for age-specific data.</figcaption>
+        </figure>
+
+        <section class="text-block">
+            <h2>The Machinery of Violence</h2>
+            <p>Finally, we expose the operational trace—the "Supply Chain" of suppression. By tracing the documented crimes back from the violation itself, through the physical geography of the act, to the ultimate actor, we can see the machinery in motion. This <strong>Operational Slinky</strong> maps the path from the moment of commission to the perpetrator.</p>
+            
+            <p>The flow reveals a systematic logic. <strong>Rape and Assault</strong> committed in public spaces often trace back to unidentified militias, where the violence is intended as a public performance of power. Conversely, violence within private homes shows a higher contribution from state-affiliated actors, mapping a "supply chain" that begins with institutional impunity and ends in the domestic sphere.</p>
+        </section>
+
+        <figure class="viz-block full-width" id="block-sankey">
+            
+            <svg id="viz-sankey"></svg>
+            <figcaption>Fig 4. The Machinery: A forensic trace-back from the violation (left) to the location (middle) and the perpetrator (right). Hover for percentage flows.</figcaption>
+        </figure>
+
+        <div class="chapter-nav-box">
+            <a href="chapter4.html" class="next-link">Chapter IV: Ethiopia and Sudan: A Case Study &rsaquo;</a>
+        </div>
+
+    </div>
+
+    <script src="../js/viz/chapter3.js"></script>
+</body>
+</html>

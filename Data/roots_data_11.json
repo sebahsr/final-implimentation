@@ -1,0 +1,754 @@
+[
+    {
+        "Country": "Sudan",
+        "Reported": 284,
+        "Index Level": "Extreme",
+        "Multiplier": 2000,
+        "Projected": 568000,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Nigeria",
+        "Reported": 84,
+        "Index Level": "Extreme",
+        "Multiplier": 2000,
+        "Projected": 168000,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Ethiopia",
+        "Reported": 162,
+        "Index Level": "High",
+        "Multiplier": 1000,
+        "Projected": 162000,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Palestine",
+        "Reported": 60,
+        "Index Level": "Extreme",
+        "Multiplier": 2000,
+        "Projected": 120000,
+        "Continent": "Middle East"
+    },
+    {
+        "Country": "Mexico",
+        "Reported": 52,
+        "Index Level": "Extreme",
+        "Multiplier": 2000,
+        "Projected": 104000,
+        "Continent": "Americas"
+    },
+    {
+        "Country": "Haiti",
+        "Reported": 98,
+        "Index Level": "High",
+        "Multiplier": 1000,
+        "Projected": 98000,
+        "Continent": "Americas"
+    },
+    {
+        "Country": "South Sudan",
+        "Reported": 97,
+        "Index Level": "High",
+        "Multiplier": 1000,
+        "Projected": 97000,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Myanmar",
+        "Reported": 41,
+        "Index Level": "Extreme",
+        "Multiplier": 2000,
+        "Projected": 82000,
+        "Continent": "Asia"
+    },
+    {
+        "Country": "Ukraine",
+        "Reported": 72,
+        "Index Level": "High",
+        "Multiplier": 1000,
+        "Projected": 72000,
+        "Continent": "Europe"
+    },
+    {
+        "Country": "Cameroon",
+        "Reported": 34,
+        "Index Level": "Extreme",
+        "Multiplier": 2000,
+        "Projected": 68000,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "India",
+        "Reported": 49,
+        "Index Level": "High",
+        "Multiplier": 1000,
+        "Projected": 49000,
+        "Continent": "Asia"
+    },
+    {
+        "Country": "Syria",
+        "Reported": 22,
+        "Index Level": "Extreme",
+        "Multiplier": 2000,
+        "Projected": 44000,
+        "Continent": "Middle East"
+    },
+    {
+        "Country": "Burundi",
+        "Reported": 77,
+        "Index Level": "Turbulent",
+        "Multiplier": 500,
+        "Projected": 38500,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Afghanistan",
+        "Reported": 37,
+        "Index Level": "High",
+        "Multiplier": 1000,
+        "Projected": 37000,
+        "Continent": "Asia"
+    },
+    {
+        "Country": "Central African Republic",
+        "Reported": 63,
+        "Index Level": "Turbulent",
+        "Multiplier": 500,
+        "Projected": 31500,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Mali",
+        "Reported": 25,
+        "Index Level": "High",
+        "Multiplier": 1000,
+        "Projected": 25000,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Colombia",
+        "Reported": 11,
+        "Index Level": "Extreme",
+        "Multiplier": 2000,
+        "Projected": 22000,
+        "Continent": "Americas"
+    },
+    {
+        "Country": "Brazil",
+        "Reported": 11,
+        "Index Level": "Extreme",
+        "Multiplier": 2000,
+        "Projected": 22000,
+        "Continent": "Americas"
+    },
+    {
+        "Country": "Somalia",
+        "Reported": 17,
+        "Index Level": "High",
+        "Multiplier": 1000,
+        "Projected": 17000,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Bangladesh",
+        "Reported": 16,
+        "Index Level": "High",
+        "Multiplier": 1000,
+        "Projected": 16000,
+        "Continent": "Asia"
+    },
+    {
+        "Country": "Russia",
+        "Reported": 16,
+        "Index Level": "High",
+        "Multiplier": 1000,
+        "Projected": 16000,
+        "Continent": "Europe"
+    },
+    {
+        "Country": "Kenya",
+        "Reported": 15,
+        "Index Level": "High",
+        "Multiplier": 1000,
+        "Projected": 15000,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Burkina Faso",
+        "Reported": 12,
+        "Index Level": "High",
+        "Multiplier": 1000,
+        "Projected": 12000,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Yemen",
+        "Reported": 9,
+        "Index Level": "High",
+        "Multiplier": 1000,
+        "Projected": 9000,
+        "Continent": "Middle East"
+    },
+    {
+        "Country": "Uganda",
+        "Reported": 18,
+        "Index Level": "Turbulent",
+        "Multiplier": 500,
+        "Projected": 9000,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Lebanon",
+        "Reported": 4,
+        "Index Level": "Extreme",
+        "Multiplier": 2000,
+        "Projected": 8000,
+        "Continent": "Middle East"
+    },
+    {
+        "Country": "Pakistan",
+        "Reported": 6,
+        "Index Level": "High",
+        "Multiplier": 1000,
+        "Projected": 6000,
+        "Continent": "Asia"
+    },
+    {
+        "Country": "South Africa",
+        "Reported": 11,
+        "Index Level": "Turbulent",
+        "Multiplier": 500,
+        "Projected": 5500,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Chad",
+        "Reported": 11,
+        "Index Level": "Turbulent",
+        "Multiplier": 500,
+        "Projected": 5500,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Israel",
+        "Reported": 10,
+        "Index Level": "Turbulent",
+        "Multiplier": 500,
+        "Projected": 5000,
+        "Continent": "Middle East"
+    },
+    {
+        "Country": "Mozambique",
+        "Reported": 10,
+        "Index Level": "Turbulent",
+        "Multiplier": 500,
+        "Projected": 5000,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Indonesia",
+        "Reported": 6,
+        "Index Level": "Turbulent",
+        "Multiplier": 500,
+        "Projected": 3000,
+        "Continent": "Asia"
+    },
+    {
+        "Country": "Honduras",
+        "Reported": 3,
+        "Index Level": "High",
+        "Multiplier": 1000,
+        "Projected": 3000,
+        "Continent": "Americas"
+    },
+    {
+        "Country": "Iran",
+        "Reported": 5,
+        "Index Level": "Turbulent",
+        "Multiplier": 500,
+        "Projected": 2500,
+        "Continent": "Middle East"
+    },
+    {
+        "Country": "Libya",
+        "Reported": 4,
+        "Index Level": "Turbulent",
+        "Multiplier": 500,
+        "Projected": 2000,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Madagascar",
+        "Reported": 4,
+        "Index Level": "Turbulent",
+        "Multiplier": 500,
+        "Projected": 2000,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Niger",
+        "Reported": 4,
+        "Index Level": "Turbulent",
+        "Multiplier": 500,
+        "Projected": 2000,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Venezuela",
+        "Reported": 2,
+        "Index Level": "High",
+        "Multiplier": 1000,
+        "Projected": 2000,
+        "Continent": "Americas"
+    },
+    {
+        "Country": "Turkey",
+        "Reported": 3,
+        "Index Level": "Turbulent",
+        "Multiplier": 500,
+        "Projected": 1500,
+        "Continent": "Middle East"
+    },
+    {
+        "Country": "Philippines",
+        "Reported": 1,
+        "Index Level": "High",
+        "Multiplier": 1000,
+        "Projected": 1000,
+        "Continent": "Asia"
+    },
+    {
+        "Country": "Jamaica",
+        "Reported": 1,
+        "Index Level": "High",
+        "Multiplier": 1000,
+        "Projected": 1000,
+        "Continent": "Americas"
+    },
+    {
+        "Country": "Ghana",
+        "Reported": 2,
+        "Index Level": "Turbulent",
+        "Multiplier": 500,
+        "Projected": 1000,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Iraq",
+        "Reported": 1,
+        "Index Level": "High",
+        "Multiplier": 1000,
+        "Projected": 1000,
+        "Continent": "Middle East"
+    },
+    {
+        "Country": "Peru",
+        "Reported": 1,
+        "Index Level": "Turbulent",
+        "Multiplier": 500,
+        "Projected": 500,
+        "Continent": "Americas"
+    },
+    {
+        "Country": "Ecuador",
+        "Reported": 1,
+        "Index Level": "Turbulent",
+        "Multiplier": 500,
+        "Projected": 500,
+        "Continent": "Americas"
+    },
+    {
+        "Country": "Benin",
+        "Reported": 1,
+        "Index Level": "Turbulent",
+        "Multiplier": 500,
+        "Projected": 500,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Democratic Republic of the Congo",
+        "Reported": 259,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 259,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Papua New Guinea",
+        "Reported": 9,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 9,
+        "Continent": "Asia"
+    },
+    {
+        "Country": "Zimbabwe",
+        "Reported": 6,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 6,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "United States",
+        "Reported": 6,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 6,
+        "Continent": "Americas"
+    },
+    {
+        "Country": "Tanzania",
+        "Reported": 6,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 6,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Tunisia",
+        "Reported": 4,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 4,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Zambia",
+        "Reported": 3,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 3,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "United Kingdom",
+        "Reported": 3,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 3,
+        "Continent": "Europe"
+    },
+    {
+        "Country": "Nepal",
+        "Reported": 3,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 3,
+        "Continent": "Asia"
+    },
+    {
+        "Country": "Ivory Coast",
+        "Reported": 3,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 3,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Malawi",
+        "Reported": 3,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 3,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Kazakhstan",
+        "Reported": 3,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 3,
+        "Continent": "Asia"
+    },
+    {
+        "Country": "Sri Lanka",
+        "Reported": 3,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 3,
+        "Continent": "Asia"
+    },
+    {
+        "Country": "Angola",
+        "Reported": 3,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 3,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Comoros",
+        "Reported": 3,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 3,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Dominican Republic",
+        "Reported": 2,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 2,
+        "Continent": "Americas"
+    },
+    {
+        "Country": "Rwanda",
+        "Reported": 2,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 2,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Uzbekistan",
+        "Reported": 2,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 2,
+        "Continent": "Asia"
+    },
+    {
+        "Country": "New Zealand",
+        "Reported": 2,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 2,
+        "Continent": "Oceania"
+    },
+    {
+        "Country": "Netherlands",
+        "Reported": 2,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 2,
+        "Continent": "Europe"
+    },
+    {
+        "Country": "Bahamas",
+        "Reported": 2,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 2,
+        "Continent": "Americas"
+    },
+    {
+        "Country": "Germany",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Europe"
+    },
+    {
+        "Country": "Gabon",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "France",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Europe"
+    },
+    {
+        "Country": "China",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Asia"
+    },
+    {
+        "Country": "Algeria",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Belize",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Americas"
+    },
+    {
+        "Country": "Canada",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Americas"
+    },
+    {
+        "Country": "El Salvador",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Americas"
+    },
+    {
+        "Country": "Equatorial Guinea",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Cyprus",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Europe"
+    },
+    {
+        "Country": "Egypt",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Greece",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Europe"
+    },
+    {
+        "Country": "Nicaragua",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Americas"
+    },
+    {
+        "Country": "Lesotho",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Laos",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Asia"
+    },
+    {
+        "Country": "Guyana",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Americas"
+    },
+    {
+        "Country": "Japan",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Asia"
+    },
+    {
+        "Country": "Jordan",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Middle East"
+    },
+    {
+        "Country": "Kyrgyzstan",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Asia"
+    },
+    {
+        "Country": "Guinea",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Morocco",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Africa"
+    },
+    {
+        "Country": "Saudi Arabia",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Middle East"
+    },
+    {
+        "Country": "Paraguay",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Americas"
+    },
+    {
+        "Country": "North Macedonia",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Europe"
+    },
+    {
+        "Country": "Poland",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Europe"
+    },
+    {
+        "Country": "Panama",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Americas"
+    },
+    {
+        "Country": "Sweden",
+        "Reported": 1,
+        "Index Level": "Low/Inactive",
+        "Multiplier": 1,
+        "Projected": 1,
+        "Continent": "Europe"
+    }
+]

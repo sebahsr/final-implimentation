@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter IV: The Cycle of Displacement</title>
+    
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/chapter4.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant Garamond:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body class="article-layout">
+
+    <nav class="article-nav">
+        <a href="../index.html" class="brand">Lineage of Silence</a>
+        <span class="issue">Chapter IV: The Double Refugee</span>
+    </nav>
+
+    <div class="main-column">
+        <header class="chapter-header">
+            <span class="intro">Regional Deep Dive</span>
+            <h1>The Endless Flight: <br>Trapped Between Two Storms</h1>
+           
+        </header>
+
+        <section class="text-block">
+            <p><span class="drop-cap">T</span>o be a refugee in the Horn of Africa is to be a traveler between two fires. In 2020, as the war in Ethiopia’s north intensified, tens of thousands of my compatriots crossed the border into Sudan, seeking the sanctuary of silence. They found temporary peace in camps like Um Rakuba, only to have that peace shattered in April 2023 when Sudan itself descended into a catastrophic civil war.</p>
+            
+            <p>The "Forensic Stripe" below tracks this tragic rhythm. You can see the initial sparks in the Ethiopian record (Gold) in late 2020, followed by the terrifying, solid wall of Sudanese violence (Purple) that began in 2023. For many, there was no choice but to turn back—fleeing a new war to return to a homeland that was still documenting its own violations.</p>
+        </section>
+
+        <figure class="viz-block" id="block-stripes">
+            
+            <svg id="viz-stripes"></svg>
+            <figcaption>Fig 1. The Rhythms of Flight: Each stripe is a life recorded. The density mirrors the moments when borders were crossed and protection vanished. Hover to isolate a specific date.</figcaption>
+        </figure>
+
+        <section class="text-block">
+            <h2>The Demographic Silhouette</h2>
+            <p>The trauma of this cross-border cycle is etched into the demographics of the survivors. In Sudan, the data reveals a generational assault, with nearly <strong>200 verified cases involving children and teenagers</strong>. In Ethiopia, the weight is carried by the <strong>Adult (30+)</strong> population—the mothers and elders who stayed to protect the land, only to be targeted as a means of social fracture.</p>
+        </section>
+
+        <figure class="viz-block" id="block-butterfly">
+            <div class="viz-legend" style="text-align: center; margin-bottom: 1rem;">
+                <span style="color: var(--purple); font-weight: 700;">&#9632; Sudan</span>
+                <span style="margin: 0 40px; color: #999; font-family: 'Cormorant Garamond';">AGE BRACKET</span>
+                <span style="color: var(--gold); font-weight: 700;">&#9632; Ethiopia</span>
+            </div>
+            <svg id="viz-butterfly"></svg>
+            <figcaption>Fig 2. Age Silhouettes: The central column bridges two different strategies of erasure. Hover for verified volume counts.</figcaption>
+        </figure>
+
+        <section class="text-block">
+            <h2>The Anatomy of the Act</h2>
+            <p>When we look at the nature of the violence, the "Double Refugee" faces a gauntlet of public and systemic horror. While direct assault remains the primary tool, the emergence of <strong>Public Gang Rape</strong> and <strong>Systemic Slavery</strong> markers in both countries indicates a shift from chaotic violence to strategic humiliation.</p>
+        </section>
+
+        <figure class="viz-block" id="block-composition">
+            <div class="viz-legend" style="text-align: center; margin-bottom: 1rem; font-family: 'Cormorant Garamond'; font-size: 0.8rem;">
+                <span style="margin: 0 10px;"><span style="display:inline-block; width:10px; height:10px; background:#444; margin-right:5px;"></span> Direct Assault</span>
+                <span style="margin: 0 10px;"><span style="display:inline-block; width:10px; height:10px; background:#d35400; margin-right:5px;"></span> Public (Gang Rape)</span>
+                <span style="margin: 0 10px;"><span style="display:inline-block; width:10px; height:10px; background:#2c3e50; margin-right:5px;"></span> Systemic (Slavery/Camps)</span>
+            </div>
+            <svg id="viz-composition"></svg>
+            <figcaption>Fig 3. Composition of Trauma: A forensic breakdown of the *types* of documented violence. Hover for percentage distributions.</figcaption>
+        </figure>
+
+
+            <a href="chapter5.html" class="next-link">Chapter V: The Road to Accountability</a>
+       
+    </div>
+
+    <div id="tooltip" class="shared-tooltip" style="opacity: 0;"></div>
+    <script src="../js/viz/chapter4.js"></script>
+</body>
+</html>

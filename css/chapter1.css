@@ -1,0 +1,325 @@
+/* css/chapter1.css */
+
+/* =========================================
+   1. MAIN LAYOUT & TYPOGRAPHY
+   ========================================= */
+
+/* Main Container for Linear Scrollytelling */
+.main-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 15vh;
+    padding-bottom: 20vh;
+    overflow-x: hidden; /* Prevent horizontal scroll bars */
+}
+
+/* Text Blocks (Narrative) */
+.text-block {
+    width: 100%;
+    max-width: 85ch; /* Strict 85ch limit for readability */
+    padding: 0 2rem;
+    margin-bottom: 4rem;
+    position: relative;
+    z-index: 10;
+}
+
+.chapter-header {
+    text-align: center;
+    margin-bottom: 6rem;
+    max-width: 85ch;
+    padding: 0 1rem;
+}
+
+/* Visualization Blocks (The "Art" Sections) */
+.viz-block {
+    width: 100%;
+    max-width: 1200px; /* Charts go wider than text for impact */
+    margin: 4rem 0 8rem 0; /* Huge breathing room */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Context for absolute tooltips */
+    
+    /* Scroll Animation Init State */
+    opacity: 0; 
+    transform: translateY(30px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.viz-block.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* SVG Containers */
+#viz-global, #viz-regional {
+    width: 100%;
+    height: 75vh; /* Tall, immersive charts */
+    display: block;
+    /* Subtle background to separate chart from page */
+    background: rgba(255, 255, 255, 0.4); 
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Captions & Legends */
+figcaption {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 1rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.viz-legend {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.dot { width: 10px; height: 10px; display: inline-block; border-radius: 50%; margin-right: 8px; }
+.dot.gold { background: var(--gold); }
+.dot.purple { background: var(--purple); }
+
+
+/* =========================================
+   2. CHART 1: THE GLOBAL GAP (Ghost Bar)
+   ========================================= */
+
+/* The "Projected" Bar (Ghost Structure) */
+.bar-ghost {
+    fill: url(#diagonalHatch); /* Pattern defined in JS */
+    stroke: var(--purple);
+    stroke-width: 1px;
+    opacity: 0.5;
+    transition: height 1s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* The "Reported" Bar (Solid Gold) */
+.bar-solid {
+    fill: var(--gold);
+    /* Soft glow to make it pop against the ghost */
+    filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.5)); 
+    transition: height 1s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.drop-cap {
+    float: left;
+    font-size: 4rem;
+    line-height: 3.5rem;
+    padding-right: 0.5rem;
+    font-family: 'Cormorant Garamond', serif;
+}
+/* The "Callout" (Magnifier Line) */
+.callout-line {
+    fill: none;
+    stroke: var(--gold);
+    stroke-width: 1.5px;
+    stroke-dasharray: 400; /* For animation */
+    stroke-dashoffset: 0;
+}
+
+.callout-dot {
+    fill: var(--gold);
+}
+
+.callout-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    fill: var(--ink);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+
+/* =========================================
+   3. CHART 2: THE REGIONAL GARDEN (Fragapane)
+   ========================================= */
+
+/* Container State Management */
+.viz-container {
+    position: relative;
+    width: 100%;
+}
+
+/* Interaction: Dimming Unselected Plants */
+.viz-container.has-selection .plant {
+    opacity: 0.15; /* Dim everything else */
+    filter: grayscale(100%);
+    transition: opacity 0.4s ease, filter 0.4s ease;
+}
+
+.viz-container.has-selection .plant.is-selected {
+    opacity: 1; /* Spotlight the target */
+    filter: none;
+}
+
+/* The Plant Group */
+.plant {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+.plant:hover {
+    opacity: 0.8; /* Subtle hover effect */
+}
+
+/* The Organic Roots (Multi-strand) */
+.frag-root-strand {
+    fill: none;
+    stroke: var(--purple);
+    stroke-width: 0.5px; /* Extremely fine hair-lines */
+    opacity: 0.4;
+    mix-blend-mode: multiply; /* Layers like ink on paper */
+}
+
+/* The Stems */
+.frag-stem {
+    fill: none;
+    stroke: var(--ink);
+    stroke-width: 0.8px;
+    opacity: 0.6;
+}
+
+/* The Flowers (Petals) */
+.flower-head ellipse {
+    /* Gold wash with transparency */
+    fill: rgba(212, 175, 55, 0.15); 
+    stroke: var(--gold);
+    stroke-width: 0.8px;
+    transition: transform 0.5s ease;
+}
+
+.frag-flower-center {
+    fill: var(--paper); /* White center */
+    stroke: var(--gold);
+    stroke-width: 1.5px;
+}
+
+/* Labels */
+.plant-label {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 11px;
+    fill: var(--ink);
+    letter-spacing: 1px;
+    pointer-events: none; /* Click goes through to plant */
+}
+
+.frag-guide-line {
+    stroke: #ccc;
+    stroke-width: 0.5px;
+    stroke-dasharray: 3, 5; /* Technical dotted line */
+}
+
+
+/* =========================================
+   4. INTERACTION UI (Detail Card)
+   ========================================= */
+
+/* The Detail Pop-up Card */
+#region-detail {
+    position: absolute;
+    bottom: 60px; /* Floats above bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    
+    width: 320px;
+    background: rgba(255, 255, 255, 0.98);
+    border: 1px solid var(--gold);
+    border-top: 4px solid var(--purple); /* Accent Bar */
+    padding: 1.5rem;
+    
+    text-align: left;
+    pointer-events: none; /* Let clicks pass through if needed, or set auto */
+    opacity: 0; /* Hidden by default */
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease;
+    
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+    z-index: 100;
+}
+
+#region-detail.active {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-10px); /* Slight lift on active */
+    pointer-events: auto;
+}
+
+/* Typography inside the card */
+#region-detail h4 {
+    margin: 0 0 1rem 0;
+    font-family: 'Cormorant Garamond', serif;
+    color: var(--ink);
+    font-size: 1.4rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.detail-sub-header {
+    margin-top: 1rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: #999;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.viz-block {
+    width: 100%;
+    max-width: 1200px;
+    margin: 4rem 0 8rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+    /* FIX: Make visible by default. 
+       We will let the SVG elements inside animate themselves. */
+    opacity: 1; 
+    transform: translateY(0);
+}
+
+/* Ensure the SVGs have explicit dimensions */
+#viz-global, #viz-regional {
+    width: 100%;
+    height: 75vh;
+    display: block;
+    background: rgba(255, 255, 255, 0.4); 
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+/* Add to css/chapter1.css */
+
+.methodology-box {
+    border-left: 2px solid var(--gold);
+    padding-left: 1.5rem;
+    margin: 2rem 0;
+}
+
+.method-step {
+    margin-bottom: 1.5rem;
+}
+
+.method-step h4 {
+    font-family: 'Cormorant Garamond', serif;
+    color: var(--ink);
+    margin: 0 0 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+.method-step p {
+    font-size: 0.95rem;
+    margin: 0;
+    color: #444;
+}

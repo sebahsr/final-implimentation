@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methodology & Sources</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant Garamond:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="./css/data.css">
+</head>
+<body class="article-layout">
+
+    <nav class="article-nav">
+        <a href="../index.html" class="brand">Lineage of Silence</a>
+        <span class="issue">Appendix: Data & Methods</span>
+    </nav>
+
+    <div class="main-column">
+        
+        <header class="chapter-header">
+            <span class="intro">Transparency</span>
+            <h1>The Source Code</h1>
+        </header>
+
+        <section class="text-block intro-text">
+            <p><span class="drop-cap">T</span>his project operates at the intersection of data science and investigative journalism. Because Conflict-Related Sexual Violence (CRSV) is an inherently silenced crime, "raw data" is never enough. It represents the floor, not the ceiling, of reality.</p>
+            <p>Below, we detail our data sources, the algorithmic logic used to project hidden figures, and the ethical frameworks applied to protect dignity while exposing truth.</p>
+        </section>
+
+        <hr class="divider">
+
+        <section class="method-section">
+            <h2>I. Primary Datasets</h2>
+            <p>The quantitative backbone of this project relies on two publicly available, verified datasets.</p>
+            
+            <div class="source-card">
+                <h3>1. ACLED Conflict Index (2024)</h3>
+                <p><strong>Source:</strong> Armed Conflict Location & Event Data Project</p>
+                <p><strong>Usage:</strong> Used to calculate the "Danger Score" and "Deadliness" metrics for the suppression algorithm. Provides the geospatial context for conflict intensity.</p>
+                <a href="https://acleddata.com" target="_blank" class="download-link">Visit Source &rarr;</a>
+            </div>
+
+            <div class="source-card">
+                <h3>2. HDX Humanitarian Data Exchange</h3>
+                <p><strong>Source:</strong> OCHA / Humanitarian Data Exchange</p>
+                <p><strong>Usage:</strong> Provided the baseline "Verified Incidents" (The Gold Dots). This dataset includes geolocated reports of sexual violence verified by aid workers and medical staff.</p>
+                <a href="https://data.humdata.org/dataset/conflict-related-sexual-violence" target="_blank" class="download-link">Visit Source &rarr;</a>
+            </div>
+        </section>
+
+        <section class="method-section">
+            <h2>II. The "Roots" Algorithm</h2>
+            <p>To move beyond verified reports and visualize the "Dark Figure" of unreported crime, we developed a <strong>Saturation Model</strong> based on the following logic:</p>
+            
+            <div class="algo-box">
+                <h4>The Formula</h4>
+                <p><code>Suppression = (Danger × 0.7) + (Deadliness × 0.3)</code></p>
+                <p>We applied a <strong>Saturation Cap</strong>. Once a region's Danger Score exceeds 2,000 (e.g., Sudan, Gaza), the suppression multiplier hits its ceiling (approx. 2000x). This prevents statistical outliers from skewing the scale while acknowledging that in total war, reporting drops to near zero.</p>
+                <p><strong>The Peace Protocol:</strong> Countries classified as "Low/Inactive" by ACLED were forced to a 1x multiplier to prevent false projections in non-conflict zones.</p>
+            </div>
+        </section>
+
+        <section class="method-section">
+            <h2>III. The Library</h2>
+            <p>Qualitative analysis was derived from the following reports. These documents informed the demographic imputation (e.g., the high prevalence of child victims in Sudan) and tactical classification (e.g., sexual slavery in Ethiopia).</p>
+            
+            <ul class="file-list">
+                <li class="file-item">
+                    <span class="file-icon">PDF</span>
+                    <div class="file-info">
+                        <strong>Sudan's Child Rape Crisis</strong>
+                        <span>UNICEF (2024) - Source for Chapter 4 Demographics</span>
+                    </div>
+                    <a href="../data/book/UNI754893.pdf.pdf" class="file-download" download>Download</a>
+                </li>
+
+                <li class="file-item">
+                    <span class="file-icon">PDF</span>
+                    <div class="file-info">
+                        <strong>Sexual Violence in Northern Ethiopia</strong>
+                        <span>Frontiers in Global Women's Health (2025)</span>
+                    </div>
+                    <a href="../data/book/fgwh-5-1340038.pdf" class="file-download" download>Download</a>
+                </li>
+
+                <li class="file-item">
+                    <span class="file-icon">PDF</span>
+                    <div class="file-info">
+                        <strong>UN Action: 14 Agencies Strategy</strong>
+                        <span>UN Action Against Sexual Violence in Conflict</span>
+                    </div>
+                    <a href="../data/book/UN-Action-14-Agencies-Committed-to-Ending-SVC.pdf" class="file-download" download>Download</a>
+                </li>
+
+                <li class="file-item">
+                    <span class="file-icon">PDF</span>
+                    <div class="file-info">
+                        <strong>All Survivors Project: Annual Report</strong>
+                        <span>Focus on Men & Boys (2023)</span>
+                    </div>
+                    <a href="../data/book/Annual-Report-final.pdf" class="file-download" download>Download</a>
+                </li>
+
+                <li class="file-item">
+                    <span class="file-icon">PDF</span>
+                    <div class="file-info">
+                        <strong>Global Survivors Fund (Annual Reports)</strong>
+                        <span>2020 - 2024 Consolidated Reports</span>
+                    </div>
+                    <div class="multi-links">
+                        <a href="../data/book/2021_10_27_GSF_ANNUAL_REPORT_2020_EN.pdf" download>2020</a> • 
+                        <a href="../data/book/GSF_Annual_Report_2021_LR.pdf" download>2021</a> • 
+                        <a href="../data/book/AR2024_GSF_EN-1.pdf" download>2024</a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="method-section">
+            <h2>IV. Ethical Statement</h2>
+            <p>Visualizing sexual violence requires a balance between <strong>Exposure</strong> and <strong>Dignity</strong>. We adhered to the following principles:</p>
+            <ul class="ethics-list">
+                <li><strong>No Individual Identifiers:</strong> All geospatial data points (The Gold Dots) were aggregated or randomized within a 5km radius to protect the privacy of survivors.</li>
+                <li><strong>Imputed Demographics:</strong> The age distributions shown in Chapter 3 and 4 are <em>probabilistic models</em> based on the cited reports. They represent statistical patterns, not specific individual case files.</li>
+                <li><strong>The "Dark Figure" Disclaimer:</strong> All "Projected" numbers are estimates based on conflict intensity models. They should be interpreted as an indication of scale, not a census.</li>
+            </ul>
+        </section>
+
+        <div class="spacer"></div>
+        <a href="./index.html" class="next-link">Return to Home</a>
+
+    </div>
+
+</body>
+</html>

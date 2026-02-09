@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 1: The Garden of Silence</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant Garamond:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/chapter1.css">
+    
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body class="article-layout">
+
+    <nav class="article-nav">
+        <a href="../index.html" class="brand">Lineage of Silence</a>
+        <span class="issue">Chapter I: The Tip of the Iceberg</span>
+    </nav>
+
+    <div class="main-column">
+        
+        <header class="chapter-header">
+            <span class="intro">Defining the Invisible</span>
+            <h1>The Gap In The Count</h1>
+        </header>
+
+        <section class="text-block">
+            <p><span class="drop-cap">C</span>onflict-Related Sexual Violence (CRSV) is not merely a crime; it is a strategic weapon of war. Used to displace communities, destroy social fabrics, and humiliate opponents, it thrives in the shadows. Unlike airstrikes or artillery fire, which leave craters and debris, this weapon leaves only silence.</p>
+            
+            <p>To understand the scale of this silence, we analyzed confirmed incident data provided by the <strong>Humanitarian Data Exchange (HDX)</strong>, covering the period from January 2020 to May 2025. This dataset serves as our "Verified Baseline"—the numerator of our equation. It represents the few thousand cases that were witnessed, documented, and legally confirmed.</p>
+        </section>
+
+        <section class="text-block">
+            <h2>The Failure of Imagination</h2>
+            <p>International bodies operate on a conservative assumption. The standard policy (WHO/UNDP) suggests that for every reported rape in a conflict zone, 10 to 20 go unreported. This metric assumes a "Reporting Gap"—a simple failure of bureaucracy.</p>
+            <p>We reject this baseline. In "Extreme" conflict zones, we are not dealing with a gap; we are dealing with a <strong>Total Information Blackout</strong>.</p>
+            <p>When hospitals are bombed, police are the perpetrators, and internet access is cut, reporting becomes statistically impossible. To treat missing data as "zero" in these regions is not neutrality; it is erasure.</p>
+        </section>
+
+        <figure class="viz-block" id="block-global">
+            <div class="viz-legend">
+                <span><span class="dot gold"></span> Verified (HDX)</span>
+                <span><span class="dot purple"></span> Projected (Suppression Model)</span>
+            </div>
+            <svg id="viz-global"></svg>
+            <figcaption>Fig 1. The Abyss: Verified Records vs. Projected Reality (2020-2025)</figcaption>
+        </figure>
+
+        <section class="text-block">
+            <h2>The "Roots" Algorithm</h2>
+            <p>To visualize the human reality rather than the legal record, we integrated the <strong>ACLED Conflict Index (2024)</strong> to build a <strong>Dynamic Saturation Model</strong>.</p>
+            
+            <p>Previous models often fail because statistical outliers (like the intensity in Gaza) skew the global scale, making other war zones look "moderate." Our new algorithm applies a <strong>Saturation Cap</strong>. Once a region crosses the threshold of "Total System Collapse," it receives maximum suppression weighting. We correlated two primary indicators:</p>
+            
+            <div class="methodology-box">
+                <div class="method-step">
+                    <h4>1. Danger Saturation (70%)</h4>
+                    <p>The risk to civilians. We cap this metric at a "Critical Threshold" (Score: 2000). Any country crossing this line is treated as a total blackout zone, ensuring outliers don't minimize the crisis in places like Sudan.</p>
+                </div>
+                <div class="method-step">
+                    <h4>2. Deadliness (30%)</h4>
+                    <p>The sheer lethality. High fatality rates correlate directly with the destruction of medical and legal infrastructure, preventing survivors from reporting.</p>
+                </div>
+                <div class="method-step">
+                    <h4>3. The Peace Protocol</h4>
+                    <p><strong>Crucial Correction:</strong> If ACLED classifies a country as "Low/Inactive" (e.g., Canada, Poland), the multiplier is locked at <strong>1x</strong>. We do not project hidden war crimes where there is no war.</p>
+                </div>
+            </div>
+
+            <p><strong>The Blackout Rule:</strong> Finally, in zones identified as "Extreme" but showing zero verified reports, our model enforces a <em>Latent Baseline</em>. It refuses to accept "zero" as the truth, inferring a minimum floor of hidden cases to represent the silenced.</p>
+        </section>
+
+        <figure class="viz-block" id="block-regional">
+            <svg id="viz-regional"></svg>
+            <figcaption>Fig 2. The Roots of Silence: Regional Breakdown of Suppression.</figcaption>
+        </figure>
+
+        <section class="text-block">
+            <h2>The Weight of the Vine</h2>
+            <p>When we apply this logic, the silence takes shape. <strong>Africa</strong> represents the deepest root in our dataset. The conflict corridor stretching from Khartoum (Sudan) to Tigray (Ethiopia) generates a projected victim count that dwarfs the rest of the world combined.</p>
+            <p>Sexual violence does not respect political borders. It ignores national lines and clusters in "heat zones" of impunity. To understand this, we must move from a list of countries to a map of human density.</p>
+            
+            <div class="spacer"></div>
+            <a href="./chapter2.html" class="next-link">Chapter II: The Map</a>
+        </section>
+
+    </div>
+
+    <script src="../js/viz/chapter1.js"></script>
+</body>
+</html>
