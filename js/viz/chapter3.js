@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     Promise.all([
-        d3.json("../../Data/ch3_timeline.json"),
-        d3.json("../../Data/ch3_ridgeline.json"),
-        d3.json("../../Data/ch3_demographics.json"),
-        d3.json("../../Data/ch3_sankey.json")
+        d3.json("../Data/ch3_timeline.json"),
+        d3.json("../Data/ch3_ridgeline.json"),
+        d3.json("../Data/ch3_demographics.json"),
+        d3.json("../Data/ch3_sankey.json")
     ]).then(([timeData, ridgeData, demogData, sankeyData]) => {
         const width = 1100;
         
