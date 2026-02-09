@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
         regionalContainer.parentElement.appendChild(detailCard); // Append to parent container
     }
 
-    d3.json("https//sebahsr.github.io/final-implimentation/data/roots_data.json").then(data => {
+    d3.json("../../roots_data.json").then(data => {
         // --- DATA PREP ---
         const globalReported = d3.sum(data, d => d.Reported);
         const globalProjected = d3.sum(data, d => d.Projected);

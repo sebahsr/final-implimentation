@@ -12,9 +12,9 @@ const tooltip = d3.select("#tooltip");
 
 async function init() {
     try {
-        const stripesData = await d3.json('https//sebahsr.github.io/final-implimentation/data/ch4_stripes.json');
-        const ageData = await d3.json('https//sebahsr.github.io/final-implimentation/data/ch4_pyramid.json');
-        const waffleData = await d3.json('https//sebahsr.github.io/final-implimentation/data/ch4_waffle.json');
+        const stripesData = await d3.json('../../ch4_stripes.json');
+        const ageData = await d3.json('../../ch4_pyramid.json');
+        const waffleData = await d3.json('../../ch4_waffle.json');
         
         drawStripeChart(stripesData);
         drawButterflyChart(ageData);
