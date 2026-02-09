@@ -26,8 +26,8 @@ document.addEventListener("DOMContentLoaded", function() {
     // --- 3. LOAD DATA ---
     Promise.all([
         d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"), 
-        d3.json("../https://sebahsr.github.io/final-implimentation/data/geo_impunity_data.json"),
-        d3.json("../https://sebahsr.github.io/final-implimentation/data/narrative_data.json")
+        d3.json("https//sebahsr.github.io/final-implimentation/data/geo_impunity_data.json"),
+        d3.json("https//sebahsr.github.io/final-implimentation/data/narrative_data.json")
     ]).then(([worldGeo, geoData, narrativeData]) => {
         
         drawImpunityMap(worldGeo, geoData, mapWidth, mapHeight);

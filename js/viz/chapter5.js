@@ -2,10 +2,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const tooltip = d3.select("#viz-tooltip");
 
     Promise.all([
-        d3.json("../https://sebahsr.github.io/final-implimentation/data/ch5_funnel.json"),
-        d3.json("../https://sebahsr.github.io/final-implimentation/data/ch5_reparations.json"),
-        d3.json("../https://sebahsr.github.io/final-implimentation/data/ch5_network.json"),
-        d3.json("../https://sebahsr.github.io/final-implimentation/data/roots_data.json")
+        d3.json("https//sebahsr.github.io/final-implimentation/data/ch5_funnel.json"),
+        d3.json("https//sebahsr.github.io/final-implimentation/data/ch5_reparations.json"),
+        d3.json("https//sebahsr.github.io/final-implimentation/data/ch5_network.json"),
+        d3.json("https//sebahsr.github.io/final-implimentation/data/roots_data.json")
     ]).then(([funnelData, repData, netData, rootsData]) => {
         const shadowTotal = d3.sum(rootsData, d => d.Projected);
         const attritionData = [
